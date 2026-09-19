@@ -1,0 +1,3 @@
+No pair found by child.
+Pair found by child: 10 9
+Error: Shared memory not updated by child.

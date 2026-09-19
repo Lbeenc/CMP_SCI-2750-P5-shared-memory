@@ -1,0 +1,8 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -pedantic
+
+mathwait: mathwait.c
+	$(CC) $(CFLAGS) -o mathwait mathwait.c
+
+clean:
+	rm -f mathwait
